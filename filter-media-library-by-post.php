@@ -19,11 +19,6 @@ if ( ! class_exists( 'Filter_Media_Library_By_Post' ) ) {
     // instatiate plugin via WP plugins_loaded - init was too late for CPT ##
     add_action( 'plugins_loaded', array ( 'Filter_Media_Library_By_Post', 'get_instance' ), 0 );
     
-    // click to stick ##
-    define( "Q_STICKY_POST_TYPE", serialize ( array ( 'property' ) ) );
-    define( "Q_STICKY_TITLE", __( "Feature", 'q-client' ) );
-    define( "GOOGLE_MAPS_V3_API_KEY", '' );
-    
     class Filter_Media_Library_By_Post {
         
         // version ##
