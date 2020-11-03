@@ -6,11 +6,11 @@
 **Stable tag:** 0.0.2  
 **License:** GPL2  
 
-Filter the lits of items in the WordPress Media Library by the post they are attached to
+Filter the attachment list WordPress Media Library by the post they are attached to
 
 ## Description ##
 
-Filter the lits of items in the WordPress Media Library by the post they are attached to
+Filter the attachment list WordPress Media Library by the post they are attached to
 
 ## Installation ##
 
