@@ -1,16 +1,10 @@
 # Filter Media Library by Post #
-**Contributors:** qlstudio
-  
-**Tags:** Filter, Media, Post
-  
-**Requires at least:** 3.8
-  
-**Tested up to:** 4.0.1
-  
-**Stable tag:** 0.0.1
-  
-**License:** GPL2
-  
+**Contributors:** qlstudio  
+**Tags:** Filter, Media, Post  
+**Requires at least:** 5.0.0  
+**Tested up to:** 5.5.3  
+**Stable tag:** 0.0.2  
+**License:** GPL2  
 
 Filter the lits of items in the WordPress Media Library by the post they are attached to
 
@@ -33,6 +27,10 @@ No applicable screenshots
 None
 
 ## Changelog ##
+
+### 0.0.2 ###
+
+* Updated to work with WP 5.5.3
 
 ### 0.0.1 ###
 
