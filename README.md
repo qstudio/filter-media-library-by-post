@@ -3,8 +3,8 @@
 **Tags:** Filter, Media, Post  
 **Requires at least:** 5.0.0  
 **Tested up to:** 5.5.3  
-**Stable tag:** 0.0.2  
-**License:** GPL2  
+**Stable tag:** 0.0.3  
+**License:** GPL3  
 
 Filter the attachment list in the WordPress Media Library by the post they are attached to
 

@@ -4,7 +4,7 @@
  * Plugin Name:     Filter Media Library by Post
  * Plugin URI:      http://qstudio.us/
  * Description:     Filter the lits of items in the WordPress Media Library by the post they are attached to
- * Version:         0.0.2
+ * Version:         0.0.3
  * Author:          Q Studio
  * Author URI:      http://qstudio.us
  * License:         GPL2
@@ -22,7 +22,7 @@ if ( ! class_exists( 'Filter_Media_Library_By_Post' ) ) {
     class Filter_Media_Library_By_Post {
         
         // version ##
-        const version = '0.0.2';
+        const version = '0.0.3';
         
         // post types ##
 		static $post_types = [ 'page', 'post' ];
@@ -59,7 +59,7 @@ if ( ! class_exists( 'Filter_Media_Library_By_Post' ) ) {
 
             // build the <select> dropdown ##
 			\add_action( 'restrict_manage_posts', array( __CLASS__, 'restrict_manage_posts' ), 1 );
-			
+
 		}
 		
 
