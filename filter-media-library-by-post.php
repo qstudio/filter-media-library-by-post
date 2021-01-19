@@ -66,9 +66,9 @@ if ( ! class_exists( 'Filter_Media_Library_By_Post' ) ) {
 		public static function log( $log ){
 
 			// local testing only ##
-			if( ! class_exists( '\q\core\helper' ) ){ return false; }
+			if( ! class_exists( '\q\theme\core\helper' ) ){ return false; }
 
-			\q\core\helper::log( $log );
+			\q\theme\core\helper::log( $log );
 
 		}
 		
